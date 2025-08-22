@@ -1,1 +1,11 @@
+venv# Python
+__pycache__/
+*.pyc
+
+# Airflow
+logs/
+dags/*.log
+
+# Environment
+.env
 venv
