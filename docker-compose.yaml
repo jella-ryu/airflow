@@ -74,8 +74,6 @@ x-airflow-common:
     AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     AIRFLOW__SMTP__SMTP_HOST: 'smtp.gmail.com'
     AIRFLOW__SMTP__SMTP_PORT: '587'
-    # AIRFLOW__SMTP__SMTP_USER: 'minseung.ryou@gmail.com'
-    # AIRFLOW__SMTP__SMTP_PASSWORD: 'wgfv ezdy tgwt izvz'
     AIRFLOW__SMTP__SMTP_FROM: 'minseung.ryou@gmail.com'
   volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/airflow/dags:/opt/airflow/dags
